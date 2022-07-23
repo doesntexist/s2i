@@ -1,4 +1,5 @@
 #!/bin/bash
 
-mv /tmp/s2i/src $HOME/src
+mv /tmp/src/* ./
 
+fix-permissions ./
